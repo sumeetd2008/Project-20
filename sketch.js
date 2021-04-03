@@ -23,6 +23,7 @@ function setup(){
     cat.addAnimation("catsitting", catSitting);
     cat.addAnimation("catmoving", catMoving);
     cat.addAnimation("cathappy", catHappy);
+    cat.debug = false;
     
     cat.scale = 0.15;
 
@@ -31,6 +32,7 @@ function setup(){
     mouse.addAnimation("mousewithcheese", mouseWithCheese);
     mouse.addAnimation("mouseteasing", mouseTeasing);
     mouse.scale = 0.12;
+    mouse.debug = false;
 }
 
 function draw() {
